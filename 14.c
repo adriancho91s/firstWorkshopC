@@ -30,14 +30,14 @@ int main () {
     */
 
     //Entrada
-    printf("Ingrese el valor de x: ");
+    printf("Por favor, digite el valor que le quiere asignar a x: ");
     scanf("%lf", &x);
 
     //Evaluar la ecuación
     resultado = ((((x/2.)+(sqrt(x)/x)+20.)*(16./x))/((((1./2.)-(3./4.)+x)/(2./17.))+x))+pow(x,2);
 
     //Salida
-    printf("\nEl resultado de la ecuación es: %lf", resultado);
+    printf("\nEl resultado de la ecuación para un valor %lf  es de %lf", x, resultado);
 
     return 0;
 }
