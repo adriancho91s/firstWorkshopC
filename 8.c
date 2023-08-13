@@ -24,6 +24,13 @@
 int main () {
     //Declaración de variables 
     float num1, num2, suma, resta, multiplicacion, division;
+    /*
+    num1, num2: almacenan los dos números ingresados por el usuario
+    suma: almacena el resultado de la suma de los dos números
+    resta: almacena el resultado de la resta de los dos números
+    multiplicacion: almacena el resultado de la multiplicación de los dos números
+    division: almacena el resultado de la división de los dos números
+    */
 
     //Solicitud de datos al usuario
     printf("Por favor, ingrese el primer número: ");
