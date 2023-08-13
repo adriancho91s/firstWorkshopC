@@ -24,7 +24,7 @@ int main() {
     float kmh, mph;// Kmh almacenará la entrada de datos y mph almacenará el resultado de la conversión
 
     // Entrada de datos
-    printf("Por favor, digite cuantos km/h desea convertir a mph: ");
+    printf("Por favor, dígite cuantos km/h desea convertir a mph: ");
     scanf("%f", &kmh);
 
     // Conversión de km/h a mph

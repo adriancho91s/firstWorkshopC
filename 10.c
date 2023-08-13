@@ -23,7 +23,7 @@ int main () {
     float ms; // Variable que almacena la velocidad en m/s
 
     //Entrada
-    printf("Por favor, digite la cantidad de mph que desea convertir a m/s: ");
+    printf("Por favor, dígite la cantidad de mph que desea convertir a m/s: ");
     scanf("%i", &mph);
 
     //Conversión

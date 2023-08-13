@@ -30,7 +30,7 @@ int main () {
     */
 
     //Entrada
-    printf("Por favor, digite el valor que le quiere asignar a x: ");
+    printf("Por favor, dígite el valor que le quiere asignar a x: ");
     scanf("%lf", &x);
 
     //Evaluar la ecuación

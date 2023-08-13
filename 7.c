@@ -27,13 +27,13 @@ int main () {
     int añoNacimiento;//Se declara la variable añoNacimiento como un entero, para capturar la entrada del usuario
 
     //Entrada de datos
-    printf("Por favor, digite su nombre: ");
+    printf("Por favor, dígite su nombre: ");
     fgets(nombre, sizeof(nombre), stdin);
     nombre[strcspn(nombre, "\n")] = '\0'; //Elimina el salto de línea de la entrada de datos
-    printf("Por favor, digite su apellido: ");
+    printf("Por favor, dígite su apellido: ");
     fgets(apellido, sizeof(apellido), stdin);
     apellido[strcspn(apellido, "\n")] = '\0'; //Elimina el salto de línea de la entrada de datos
-    printf("Por favor, digite su año de nacimiento: ");
+    printf("Por favor, dígite su año de nacimiento: ");
     scanf("%i", &añoNacimiento);
 
     //Salida de datos

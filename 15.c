@@ -24,12 +24,20 @@
 int main () {
     //Declaración de variables
     double x, resultado;
+    /*
+    x es la variable que almacena un valor por el usuario
+    resultado es la variable que almacena el resultado de la ecuación
+    */
+
     //Entrada
-    printf("Ingrese el valor de x: ");
+    printf("Por favor, dígite el valor que le quiere asignar a x: ");
     scanf("%lf", &x);
-    //Proceso
+
+    //Evaluar la ecuación
     resultado = ((((((((x/6.)+(45./x))/(x-(-8./2.)))/12.)/sqrt(x))/5.)+pow(x,4))/sqrt(x));
+
     //Salida
-    printf("El resultado de la ecuación es: %lf", resultado);
+    printf("\nEl resultado de la ecuación para un valor %lf  es de %lf", x, resultado);
+
     return 0;
 }

@@ -25,7 +25,7 @@ int main () {
     // (horas) almacenará el resultado de la conversión de minutos a horas y (minutosRestantes) almacenará el residuo de la conversión de minutos a horas
 
     // Entrada de datos
-    printf("Por favor, digite la cantidad de minutos: ");
+    printf("Por favor, dígite la cantidad de minutos: ");
     scanf("%d", &minutos);
 
     // Conversión

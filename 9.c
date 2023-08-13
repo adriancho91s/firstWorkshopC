@@ -29,9 +29,9 @@ int main() {
     */
 
    //Entrada de datos
-    printf("Por favor, digite el valor del primer angulo: ");
+    printf("Por favor, dígite el valor del primer angulo: ");
     scanf("%d", &angulo1);
-    printf("Por favor, digite el valor del segundo angulo: ");
+    printf("Por favor, dígite el valor del segundo angulo: ");
     scanf("%d", &angulo2);
 
     //Determinar tercer ángulo

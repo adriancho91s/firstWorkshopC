@@ -33,14 +33,14 @@ int main () {
     //Esta variable almacena el valor de los milisegundos
 
     //Mensaje en consola
-    printf("Por favor digite el numero de horas, minutos y segundos que desea convertir a milisegundos.\n");
+    printf("Por favor dígite el numero de horas, minutos y segundos que desea convertir a milisegundos.\n");
 
     //Entrada
-    printf("\nDigite horas: ");
+    printf("\Dígite horas: ");
     scanf("%d", &horas);
-    printf("Digite minutos: ");
+    printf("Dígite minutos: ");
     scanf("%d", &minutos);
-    printf("Digite segundos: ");
+    printf("Dígite segundos: ");
     scanf("%d", &segundos);
 
     //Conversión

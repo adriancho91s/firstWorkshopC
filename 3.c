@@ -25,9 +25,9 @@ int main () {
     int ancho, largo, perimetro;
 
     //Entrada de datos
-    printf("Por favor digite el largo del rectángulo: ");
+    printf("Por favor dígite el largo del rectángulo: ");
     scanf("%d", &largo);
-    printf("Por favor digite el ancho del rectángulo: ");
+    printf("Por favor dígite el ancho del rectángulo: ");
     scanf("%d", &ancho);
 
     //calcular el perimetro

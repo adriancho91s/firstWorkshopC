@@ -25,9 +25,9 @@ int main (){
     int horas, minutos, minutosTotales;// (horas, minutos) almacenará los valores de entrada, minutosTotales almacenará el resultado de la conversión
 
     // Entrada de datos
-    printf("Por favor digite la cantidad de horas: ");
+    printf("Por favor dígite la cantidad de horas: ");
     scanf("%d", &horas);
-    printf("Por favor digite la cantidad de minutos: ");
+    printf("Por favor dígite la cantidad de minutos: ");
     scanf("%d", &minutos);
 
     // Conversión
