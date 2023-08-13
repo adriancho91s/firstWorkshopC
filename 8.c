@@ -45,7 +45,7 @@ int main () {
     division = num1 / num2;
 
     //Impresión de resultados
-    printf("Suma: %.2f\n", suma);
+    printf("\nSuma: %.2f\n", suma);
     printf("Resta: %.2f\n", resta);
     printf("Multiplicación: %.2f\n", multiplicacion);
     printf("División: %.2f\n", division);
