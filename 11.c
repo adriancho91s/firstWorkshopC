@@ -48,4 +48,6 @@ int main () {
 
     //Salida
     printf("\nLa cantidad de milisegundos para %i hora, %i minutos y %i segundos es de %.0lf milisegundos", horas, minutos, segundos, milisegundos);
+
+    return 0;
 }
