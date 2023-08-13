@@ -36,7 +36,7 @@ int main () {
     printf("Por favor digite el numero de horas, minutos y segundos que desea convertir a milisegundos.\n");
 
     //Entrada
-    printf("Digite horas: ");
+    printf("\nDigite horas: ");
     scanf("%d", &horas);
     printf("Digite minutos: ");
     scanf("%d", &minutos);
